@@ -71,11 +71,14 @@ body {
 }	
 
 input {
+	width: 220px;
 	height: 50px;
 	padding: 5px 10px;
 	margin: 5px 0;
 	border: 2px solid rgb(155, 89, 182);
-	font: bold 24px 'Poiret One';
+	font: bold 22px 'Poiret One';
+	border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
 input:focus {
@@ -86,8 +89,9 @@ input:focus {
 .submit-button {
 	margin-left: -8px;
 	height: 50px;
-    line-height: 50px;
-    width: 50px;
+    /* line-height: 50px; */
+	width: 50px;
+	padding: 0;
     font-size: 24px;
 	background-color: rgb(155, 89, 182);
     color: #FFF;
@@ -103,6 +107,7 @@ input:focus {
 .icon-btn {
 	height: 100px;
 	width: 100px;
+	padding: 0;
 	border: 0;
 	border-radius: 50%;
 	background-color: rgb(155, 89, 182);
